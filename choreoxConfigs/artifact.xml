@@ -8,4 +8,7 @@
     <artifact name="HelloWorld_metadata" groupId="wso2.sampleHelloWorld.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
         <file>src/main/resources/metadata/HelloWorld_metadata.yaml</file>
     </artifact>
+    <artifact name="main" groupId="wso2.sampleHelloWorld.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/main.xml</file>
+    </artifact>
 </artifacts>

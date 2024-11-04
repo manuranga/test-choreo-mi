@@ -17,5 +17,6 @@
     <module>api/HelloWorld</module>
     <module>metadata/HelloWorld_swagger</module>
     <module>metadata/HelloWorld_metadata</module>
+    <module>sequences/main</module>
   </modules>
 </project>

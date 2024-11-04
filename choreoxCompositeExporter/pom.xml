@@ -18,6 +18,7 @@
     <wso2.sampleHelloWorld.metadata_._HelloWorld_metadata>capp/EnterpriseServiceBus</wso2.sampleHelloWorld.metadata_._HelloWorld_metadata>
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,datasource/datasource=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,synapse/metadata=yaml,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
     <wso2.sampleHelloWorld.metadata_._HelloWorld_swagger>capp/EnterpriseServiceBus</wso2.sampleHelloWorld.metadata_._HelloWorld_swagger>
+    <wso2.sampleHelloWorld.sequence_._main>capp/EnterpriseServiceBus</wso2.sampleHelloWorld.sequence_._main>
   </properties>
   <dependencies>
     <dependency>
@@ -37,6 +38,12 @@
       <artifactId>HelloWorld_swagger</artifactId>
       <version>1.0.0</version>
       <type>yaml</type>
+    </dependency>
+    <dependency>
+      <groupId>wso2.sampleHelloWorld.sequence</groupId>
+      <artifactId>main</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
     </dependency>
   </dependencies>
   <repositories>

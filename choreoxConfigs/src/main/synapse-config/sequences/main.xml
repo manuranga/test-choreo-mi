@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="main" xmlns="http://ws.apache.org/ns/synapse">
+    <in>
+        <log category="ERROR">
+            <property name="msg" value="Hello form main"/>
+        </log>
+    </in>
+    <out/>
+</sequence>
